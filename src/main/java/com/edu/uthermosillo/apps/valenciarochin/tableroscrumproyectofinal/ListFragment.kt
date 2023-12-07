@@ -45,16 +45,16 @@ class ListFragment : Fragment() {
     private fun initData() {
         tablerosList.addAll(
             listOf(
-            Tableros(1, "Tablero Scrum: Escuela", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
-            Tableros(2, "Tablero Scrum: Trabajo", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
-            Tableros(3, "Tablero Scrum: Personal", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
-            Tableros(4, "Tablero Scrum: Tareas", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
-            Tableros(5, "Tablero Scrum: Maestros a los que odio", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
-            Tableros(6, "Tablero Scrum: Computadoras", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
-            Tableros(7, "Tablero Scrum: Materias reprobadas", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
-            Tableros(8, "Tablero Scrum: Juegos", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
-            Tableros(9, "Tablero Scrum: Casa", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
-            Tableros(10, "Tablero Scrum: Maestros a los que les disparere primero", "Alan, Omar EL ASESINO, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(1, "Tablero Scrum: Escuela", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(2, "Tablero Scrum: Trabajo", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(3, "Tablero Scrum: Personal", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(4, "Tablero Scrum: Tareas", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(5, "Tablero Scrum: Maestros a los que odio", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(6, "Tablero Scrum: Computadoras", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(7, "Tablero Scrum: Materias reprobadas", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(8, "Tablero Scrum: Juegos", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(9, "Tablero Scrum: Casa", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
+            Tableros(10, "Tablero Scrum: Cosas Chistosas", "Alan, Omar, Javier", "android.resource://${requireContext().packageName}/${R.drawable.tablero_scrum}"),
         )
         )
     }
